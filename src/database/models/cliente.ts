@@ -5,6 +5,7 @@ const ClienteSchema = new Schema(
     nombre: {
       type: String,
       required: true,
+      unique: true,
     },
 
     apellido: {
@@ -20,6 +21,12 @@ const ClienteSchema = new Schema(
     celular: {
       type: Number,
       required: true,
+    },
+
+    password: {
+      type: String,
+      required: true,
+      select: false,
     },
   },
   {
