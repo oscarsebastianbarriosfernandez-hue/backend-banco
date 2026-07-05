@@ -1,0 +1,51 @@
+# Dependencias
+node_modules/
+
+# Archivos compilados de TypeScript
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos temporales
+tmp/
+temp/
+.cache/
+
+# Cobertura de pruebas
+coverage/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code
+.vscode/
+
+# Configuración de JetBrains
+.idea/
+
+# Archivos de TypeScript
+*.tsbuildinfo
+
+# Archivos de npm
+package-lock.json
+
+# Archivos de Yarn
+yarn.lock
+
+# Archivos de pnpm
+pnpm-lock.yaml
